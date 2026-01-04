@@ -1,17 +1,25 @@
+### OS / IDE
 .idea/
 .idea/*
 .venv
-
 __pycache__/
 *.pyc
 .venv/
-.env
 .DS_Store
-
 .*
 
+### Sensible data
 /data
 *.xlsx
 *.csv
+**/*.csv
+**/*.parquet
+
+### Exports notebooks
+**/.ipynb_checkpoints/
+
+### Secrets
+.env
+*.key
 
 backend/requirements.macos.txt
