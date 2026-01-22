@@ -22,5 +22,9 @@ __pycache__/
 .env
 *.key
 
+### ML Models
+models/
+machine_learning/notebooks/models/
+
 backend/requirements.macos.txt
 
